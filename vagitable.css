@@ -1,0 +1,21 @@
+body{
+	background:url('green')no-repeat;
+	background-size:cover;
+	font-family:arial;
+	color:black;
+	background-color:e3e70e;
+	
+}
+h1{
+	color:red;
+}
+h2{
+	color:red;
+}
+h3{
+	color:green;
+}
+span{
+	float:right;
+}
+	

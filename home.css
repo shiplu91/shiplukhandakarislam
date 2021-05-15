@@ -1,0 +1,96 @@
+body{
+	background:url('spi.jpg')no-repeat;
+	background-size:cover;
+	font-family:arial;
+	color:white;
+}
+
+
+
+.login{
+    
+    
+    
+    
+    width: 380px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-59%);
+    color:whitesmoke;
+    
+}
+.text-box{
+    
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0px;
+    margin: 8px 0px;
+    border-bottom: 2px solid red;
+    
+    
+    
+}
+.text-box input{
+    border: none;
+    outline: none;
+    background: none;
+    color:white;
+    font-size: 18px;
+    margin: 10px;
+    float: left;
+    width: 280px;
+    
+}
+
+
+
+
+
+.rt{
+    width: 100%;
+    background: none;
+    border: 1px solid #4caf50;
+    color: blue;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+span{
+	float:right;
+	margin-left:0px;
+    color:snow;
+}
+

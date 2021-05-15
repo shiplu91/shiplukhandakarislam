@@ -1,0 +1,674 @@
+  
+    
+    
+    
+    
+    
+    body{
+	background:url('mak1.jpg');
+	background-size:contain;
+    background-repeat:round;
+	font-family:arial;
+	color:gold;
+margin: 0;
+  padding: 0;
+}
+
+p7{
+    
+    color:red;
+    
+}
+span1{
+    font-size: 12px;
+}
+progress{
+	width:1200px;
+    transition: all 1.3s ease;
+    overflow: auto;
+	
+}
+	
+  ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+ul li{
+float:left;
+	width:210px;
+	height:40px;
+	background-color:green;
+	opacity:8;
+	line-height:40px;
+	text-align:center;
+	font-size:20px;
+	margin-right:2px;
+	
+}
+ ul li a{
+	text-decoration:none;
+	color:white;
+	display:block;
+	
+}
+ ul li a:hover{
+	background-color:red;
+}
+  ul li ul li{
+	display:none;
+}
+ul li:hover ul li{
+	display:block;
+	
+}
+
+ ul li span{
+	margin-right:10px;
+}
+h2{
+	margin-right:40px;
+	float:left;
+	width:300px;
+	height:300px;
+}
+span{
+	
+	
+	color:#C0FFFD ;
+   
+    
+}
+
+
+
+
+h3{
+	width:480px;
+	height:50px;
+}
+
+h4{
+	width:200px;
+	height:40px;
+	line-height:40px;
+
+	text-align:center;
+	font-size:20px;
+}
+  h4 {
+	text-decoration:none;
+	color:white;
+	display:block;
+	
+}
+
+h4 a :hover{
+	background-color:red;
+}
+
+
+  h4 {
+	display:none;
+}
+h4 a h4 :hover {
+	display:block;
+	
+
+}
+
+
+
+
+.container{
+    margin-top: 0px;
+    
+    
+}
+.inner{
+    overflow: hidden
+}
+.inner img{
+    transition: all 1.5s ease;
+    
+}
+.inner:hover img{
+    transform:scale(1.5);
+}
+
+
+*{
+	margin:0px;
+	padding:0px;
+	
+	
+}
+.content-all{
+	width:800px;
+	height:400px;
+	position:relative;
+	display:block;
+	margin:auto;
+	margin-top:5%;
+	overflow:hidden;
+	perspective:80px;
+	box-shadow:0 20px 40px 0 black;
+	color:green;
+   
+}
+
+		
+#img1{
+	transform:translatex(0);
+	opacity:1;
+	
+}
+.content-img{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+	transform:translatex(-100%)rotateY(360deg);
+	transition:all 1s;
+	
+}
+.content-img:target{
+	transform:translatex(0) rotateY(0deg);
+	opacity:1;
+
+}
+.content-img img{
+		width:100%;
+	height:100%;
+}
+.icon-circle-left{
+	position:absolute;
+	top:250px;
+	left:0px;
+	font-size:40px;
+	text-decoration:none;
+	color:blue;
+	
+}
+.icon-circle-right{
+	position:absolute;
+	top:250px;
+	right:0px;
+	font-size:40px;
+	text-decoration:none;
+	color:blue;
+	
+}
+.content-details{
+	position:relative;
+	top:-350px;
+	width:500px;
+	margin:auto;
+	padding:10px;
+	background:rgba(0,0,0,0.5);
+	color:white;
+	text-align:center;
+	font-family:arial;
+	
+}
+.content-details p{
+	margin-top:10px;
+}
+.content-details input[type="button"]{
+	padding:6px 40px;
+	font-size:18px;
+	margin-top:10px;
+	background:rgba(255,10,0.5);
+	border-style:none;
+	color:white;
+	outline:0px;
+	transition:all 300ms;
+	
+	
+	
+}
+.content-details input[type="button"]:hover{
+	background:rgba(0,0,0,0.5);
+	cursor:pointer;
+	transition:all 300ms;
+}
+h1{
+	height:40px;
+    color:goldenrod;
+}
+p1{
+   color: orangered;
+}
+
+.single-blog{
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
+        padding:10px;
+    margin-top: 30px;
+    background-color: whitesmoke;
+    width: 320px;
+    transition: all 1.5s ease;
+    overflow: hidden;
+ 
+    
+}
+
+
+
+.single-blog :hover{
+   
+
+    transition: scale(1.5);
+    color: greenyellow;
+    
+}
+
+
+
+.single-blog img{
+   display: block;
+    
+      position: absolute;
+    top:40%;
+    left:170px;
+    transform: translate(-50%,-50%);
+    width: 260px;
+    height: 210px;
+   transition:all 1.2s ease;
+    border: 3px solid red;
+    border-radius:50%;
+        
+    transition: all 1.3s ease;
+
+  
+    
+}
+
+
+.single-blog img:hover{
+    background-color: chartreuse;
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.blog-meta{
+    font-size: 14px;
+    margin-bottom: 10px;
+    
+   
+}
+
+.blog-text{
+    font-size: 14px;
+    text-align: justify;
+}
+.single-blog h2{
+    margin-top: 10px;
+    font-size: 16px;
+    color: darksalmon;
+}
+.single-blog h2 a{
+    text-decoration: none;
+}
+
+.read-more-btn{
+    border-image: linear-gradient(to right,#1c03b5,#5c8bef);
+    padding: 5px 12px 8px;
+    border-radius: 20px;
+    line-height: 20px;
+    font-size: 20px;
+    color: coral;
+    border: none!important;
+    
+}
+
+
+.read-more-btn:hover{
+    border-image: linear-gradient(to right,#006417,#00b128);
+text-decoration: none;
+    color:gold;
+    
+    
+}
+
+
+.card-text{
+    
+    transition: all 1.5s ease;
+    overflow: hidden;
+    font-size: 12px;
+    
+    
+    
+    
+    
+}
+
+.card-text:hover{
+    
+    
+    
+    
+    transition: scale(1.5);
+    color: red;
+    height: 178px;
+    
+    
+     
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+span1{
+    margin-right: 10px;
+    
+   padding: 10px;
+    
+}
+
+.para{
+  
+    transform:perspective(340px)rotateX(8deg);
+    font-size: 15px;
+    color:whitesmoke;
+    
+    display: block;
+    
+}
+
+.wipper{
+    position:relative;
+    animation: animate 2.3s ease infinite;
+    display: block;
+}
+
+@keyframes animate{
+    0%{top:100px;}
+    100%{top:350px;}
+}
+
+.ppi{
+    box-shadow:: 0px 0px 20px 1px rgba(0,0,0,0.2);
+    background-color: aqua;
+    width: 310px;
+   height: 470px;
+    padding: 12px;
+    margin-right: 20px;
+    padding: 29px;
+  margin-top: 30px;
+     border-radius: 10px;
+    left: 998px;
+}
+
+.ee img{
+    width: 240px;
+    height: 210px;
+    left: 19px;
+    border-radius: 50px;
+    color: red;
+
+        
+}
+
+
+
+.ee img:hover{
+    display: block;
+    
+    background-color:red;
+    width:20px;
+    transition: all 1.2s ease;
+    
+}
+@keyframes{
+    0%{top:100px;}
+    100%{top:140px}
+}
+.center-text{
+
+ font-size: 14px;
+    text-align:justify;
+    text-rendering: auto;
+    
+
+}
+
+
+
+.resid-btn{
+    border-image: linear-gradient(to right,#1c03b5,#5c8bef);
+    padding: 5px 12px 8px;
+    border-radius: 20px;
+    line-height: 20px;
+    font-size: 20px;
+    color: coral;
+    border: none!important;
+    
+}
+
+
+.resid-btn:hover{
+    border-image: linear-gradient(to right,#006417,#00b128);
+text-decoration: none;
+    color:gold;
+    
+    
+}
+
+
+.text-p{
+    margin-right:2px;
+    color:red;
+    
+   
+    
+}
+
+
+epi{
+    
+     box-shadow:: 0px 0px 20px 1px rgba(0,0,0,0.2);
+    background-color: aqua;
+    width: 310px;
+   height: 470px;
+    
+      padding: 12px;
+    margin-right: 20px;
+    padding: 29px;
+  margin-top: 30px;
+     border-radius: 10px;
+    left: 998px;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+ip{
+    font-size: 29px;
+    color:aqua;
+   
+    right: 190px;
+    
+}
+video{
+    display: block;
+    position: absolute;
+    
+     width: 540px;
+    height: 410px;
+    left: 240px;
+    background-color:red,aqua;
+}
+t{
+    color: crimson;
+}
+
+
+.text-gp p{
+    
+    color:goldenrod;
+        
+        
+        
+        font-size-adjust: 25px;
+    font-family: 10px;
+    padding: 29px;
+    font-style: normal;
+    text-decoration-line: underline;
+    left:23px;
+    
+    
+    
+}
+
+
+
+
+ .bird{
+    
+ 	background:url("bird.png");
+ 	width: 130px;
+ 	height: 170px;
+ 	position: absolute;
+    
+ }
+
+ .bird-1{
+ 	top: 170%;
+ 	left: -10%;
+ 	animation: birdFly 1s steps(10) infinite, birdMove 15s linear infinite;
+
+ 	/* here steps(10) are no of birds in the picture*/
+ }
+
+
+.bird-2{
+ 	top: 180%;
+ 	left: -10%;
+ 	animation: birdFly 1s steps(10) infinite, birdMove 15s linear infinite;
+ 	/* here steps(10) are no of birds in the picture*/
+ 	animation-delay:3s;
+ }
+
+
+ .bird-3{
+ 	top: 190%;
+ 	left: -10%;
+ 	animation: birdFly 1s steps(10) infinite, birdMove 15s linear infinite;
+ 	/* here steps(10) are no of birds in the picture*/
+ 	animation-delay:5s;
+ }
+.bird-4{
+ 	top: 200%;
+ 	left: -10%;
+ 	animation: birdFly 1s steps(10) infinite, birdMove 15s linear infinite;
+ 	/* here steps(10) are no of birds in the picture*/
+ 	animation-delay:4s;
+ }
+
+.bird-5{
+ 	top: 210%;
+ 	left: -10%;
+ 	animation: birdFly 1s steps(10) infinite, birdMove 15s linear infinite;
+ 	/* here steps(10) are no of birds in the picture*/
+ 	animation-delay:6s;
+ }
+.bird-6{
+ 	top: 170%;
+ 	left: -10%;
+ 	animation: birdFly 1s steps(10) infinite, birdMove 15s linear infinite;
+ 	/* here steps(10) are no of birds in the picture*/
+ 	animation-delay:7s;
+    color: aqua;
+ }
+
+ /*==now animation time==*/
+
+ @keyframes birdFly{
+ 	0%{
+ 		background-position-x: 0px;
+	}
+
+ 	100%{
+		background-position-x: 1305px;
+	}
+
+}
+
+
+/*== now bird move left to right animation time==*/
+@keyframes birdMove{
+	0%{
+		left: -10%;
+	}
+
+	100%{
+		left: 110%;
+	}
+
+}
+
+
+
+ 
+
+
+
+
+
+
+
